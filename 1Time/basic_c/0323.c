@@ -1,13 +1,25 @@
 #include <stdio.h>
 int main(void)
 {
-	int sum = 0;
-	int target = 100;
 	int input = 0;
-	do 
+	scanf("%d",&input);
+	// char prev = ' ';
+	int i = 1;
+	while(i <= input)
 	{
-		scanf("%d",&input);
-		sum += input;
-	}while(sum < target);
-	printf("%d\n",sum);
+		if(input % i == 0)
+			printf("%d ",i);
+		i++;
+	}
+	printf("\n");
+	// while(1)
+	// {
+	// 	scanf("%c",&c);
+	// 	if(c == 'w')
+	// 		prev = c;
+	// 	if(prev == 'w' && c == 'q')
+	// 		break;
+	// 	// printf("%c",c);
+	// }
+	return 0;
 }
