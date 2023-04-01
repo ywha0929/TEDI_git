@@ -1,2 +1,2 @@
-gcc 0325.c -o lecture
+gcc test.c -o lecture
 ./lecture

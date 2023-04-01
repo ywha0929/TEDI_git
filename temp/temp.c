@@ -2,20 +2,15 @@
 
 int main(void)
 {
-    int size= 0;
-    scanf("%d",&size);
-    for(int i = 1; i<= size; i+=2)
+    int temp = 0;
+    scanf("%d",&temp);
+    int min = temp;
+    int max = temp;
+    for(int i = 0; i< 4; i++)
     {
-        for(int j = 0; j < (size-i)/2; j++)
-        {
-            printf(" ");
-        }
-        for(int j= 0; j< i; j++)
-        {
-            printf("*");
-
-        }
-        printf("\n");
+        scanf("%d",&temp);
+        min = min<temp?min:temp;
+        max = max>temp?max:temp;
     }
-    
+    printf("%d %d\n",min,max);
 }
