@@ -1,2 +1,2 @@
-g++ temp.c -o lecture
+gcc 0402.c -o lecture
 ./lecture

@@ -1,2 +1,2 @@
-g++ 0401.cpp -o lecture
+g++ 0408.cpp -o lecture
 ./lecture
