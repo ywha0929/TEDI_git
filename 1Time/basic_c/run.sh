@@ -1,2 +1,2 @@
-gcc 0408.c -o lecture -Wall
+gcc 0415.c -o lecture -Wall
 ./lecture
