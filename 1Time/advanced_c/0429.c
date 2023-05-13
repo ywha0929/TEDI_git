@@ -1,11 +1,21 @@
 #include <stdio.h>
 #include <string.h>
-#include <stdlib.h>
+
 int main(void) 
 {
-    //strcpy, strcmp, strlen, strtok
-
-    printf("hi\n");
-    for(int i = 0; i< 10000000000; i++);
-//     printf("")
+    char input1[101];
+    char input2[101]; 
+    scanf("%s",input1);
+    scanf("%s",input2);
+    if(strlen(input1) < strlen(input2))
+        printf("%s %s\n",input1,input2);
+    else if(strlen(input1) > strlen(input2))
+        printf("%s %s\n",input2,input1);
+    else
+    {
+        if(strcmp(input1,input2) < 0)
+            printf("%s %s\n",input1,input2);
+        else
+            printf("%s %s\n",input2,input1);
+    }
 }

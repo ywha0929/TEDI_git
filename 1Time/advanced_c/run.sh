@@ -1,2 +1,2 @@
-gcc 0429.c -o lecture
+gcc 0513.c -o lecture 
 ./lecture

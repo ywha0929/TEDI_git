@@ -1,2 +1,2 @@
-g++ 21756.cpp -o lecture
+g++ test.cpp -o lecture
 ./lecture
