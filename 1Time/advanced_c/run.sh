@@ -1,2 +1,2 @@
-gcc 0603.c -o lecture 
+gcc 0722.c -o lecture -g -lpthread
 ./lecture

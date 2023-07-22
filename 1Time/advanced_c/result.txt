@@ -1,0 +1,6 @@
+5th member : exit
+4th member : e
+3th member : d
+2th member : c
+1th member : b
+0th member : a
